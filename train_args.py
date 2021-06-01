@@ -12,7 +12,6 @@ class Train_Args(object):
 
         '''初始化数据信息'''
         self.dataset = 'test_data'  # 设置数据路径
-        self.tfrecord_dir = os.path.join(self.dataset,'tfrecord')   # 设置生成的tfrecord的文件夹地址
         self.tfrecord_dir = 'tfrecord'   # 设置生成的tfrecord的文件夹地址
 
         self.train_p = 0.4
