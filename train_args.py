@@ -14,8 +14,8 @@ class Train_Args(object):
         self.dataset = 'test_data'  # 设置数据路径
         self.tfrecord_dir = 'tfrecord'   # 设置生成的tfrecord的文件夹地址
 
-        self.train_p = 0.4
-        self.val_p = 0.3
+        self.train_p = 0.8
+        self.val_p = 0.1
         self.image_type = ['jpg','JPG','bmp','png']     # 数据中包含的图片格式
         self.is_tfrecord_generate = True    # 是否生成tfrecords文件，如果已经生成则为False
 
